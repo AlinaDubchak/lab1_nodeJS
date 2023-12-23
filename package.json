@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check",
     "format:fix": "npx prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
     "eslint-plugin-sonarjs": "^0.23.0",
     "husky": "^8.0.3",
     "prettier": "3.1.1"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
