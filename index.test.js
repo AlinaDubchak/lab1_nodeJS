@@ -1,5 +1,7 @@
-const sum = require("./index");
+const sum = require('./index')
 
-it("should calculate sum corect", () => {
-  expect(sum(1, 2)).toBe(3);
-});
+// eslint-disable-next-line no-undef
+it('should calculate sum corect', () => {
+  // eslint-disable-next-line no-undef
+  expect(sum(1, 2)).toBe(3)
+})
